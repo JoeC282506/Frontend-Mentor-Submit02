@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Conference ticket generator</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <!-- Form starts -->
+      <img src="./assets/images/logo-full.svg" alt="" class="logo" />
+      <!-- <div class="heading"></div> -->
+      <p class="heading">Your Journey to Coding Conf 2025 Starts Here!</p>
+      <p class="subheading">
+        Secure your spot at next year's biggest coding conference.
+      </p>
+
+      <div class="avatarInput">
+        <!-- avatarInput -->
+        <p class="upload">Upload Avatar</p>
+        <input type="file" id="file" />
+        <label for="file">
+          <img src="./assets/images/icon-upload.svg" alt="" />
+          <p>Drag and drop or click to upload</p>
+        </label>
+        <div class="inputinfo">
+          <img src="assets/images/icon-info.svg" alt="" />
+          <span>Upload your photo (JPG or PNG, max size: 500KB).</span>
+        </div>
+      </div>
+      <div class="nameInput">
+        <p>Full Name</p>
+        <input type="text" />
+      </div>
+      <div class="emailInput">
+        <p>Email Address</p>
+        <input type="text" placeholder="example@email.com" />
+      </div>
+      <div class="githubInput">
+        <p>GitHub Username</p>
+        <input type="text" placeholder="@yourusername" />
+      </div>
+      <button class="btn">Generate My Ticket</button>
+
+      <!-- Form ends -->
+
+      <!-- Generated tickets starts -->
+
+      <!-- Congrats, ! Your ticket is ready. We've emailed your ticket to and will
+      send updates in the run up to the event. Coding Conf Jan 31, 2025 /
+      Austin, TX -->
+
+      <!-- Generated tickets ends -->
+    </div>
+
+    <div class="bgimg">
+      <img src="assets/images/pattern-lines.svg" alt="" class="img1" />
+      <img
+        src="assets/images/pattern-squiggly-line-top.svg"
+        alt=""
+        class="img2"
+      />
+      <img
+        src="assets/images/pattern-squiggly-line-bottom-desktop.svg"
+        alt=""
+        class="img3"
+      />
+      <img src="assets/images/pattern-circle.svg" alt="" class="img4" />
+    </div>
+  </body>
+</html>
